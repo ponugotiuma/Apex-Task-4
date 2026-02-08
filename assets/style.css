@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-image: url("images/test.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+/* Main container */
+.container{
+    width:90%;
+    max-width:1000px;
+    margin:40px auto;
+    background: rgba(255,255,255,0.85); /* more transparent */
+    padding:25px;
+    border-radius:12px;
+}
+
+
+/* Event cards */
+.event-card{
+    background:#f4f6fb;
+    padding:20px;
+    margin:20px 0;
+    border-left:5px solid #2a5298;
+    border-radius:8px;
+}
+
+/* Forms */
+.form-card{
+    max-width:400px;
+    margin:20px auto;
+}
+
+input, textarea{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border-radius:5px;
+    border:1px solid #ccc;
+}
+
+/* Buttons */
+button, .btn{
+    display:inline-block;
+    padding:10px 15px;
+    background:#2a5298;
+    color:white;
+    border:none;
+    border-radius:5px;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+button:hover, .btn:hover{
+    background:#1e3c72;
+}
+
+/* Success box */
+.success-box{
+    text-align:center;
+    padding:40px;
+}
+
+/* Table */
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+th, td{
+    padding:10px;
+    border:1px solid #ccc;
+    text-align:left;
+}
+
+th{
+    background:#2a5298;
+    color:white;
+}
